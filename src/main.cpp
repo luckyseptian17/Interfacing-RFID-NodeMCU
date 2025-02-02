@@ -62,7 +62,7 @@ void loop() {
   client.println("<p style='text-align: center;'><span style='font-size: x-large;'><strong>RFID Reader</strong></span></p>");
   client.println("<hr size='5px' color='red' width='30%' align='centre'>");
   client.print("<p style='text-align: center;'><span style='font-size: x-large;'>https://github.com/luckyseptian17</span></p>");
-  client.print("<p style='text-align: center;'><span style='color: #0000ff;'><strong style='font-size: large;'>RFID= ");
+  client.print("<p style='text-align: center;'><span style='color:rgb(6, 6, 131);'><strong style='font-size: large;'>RFID= ");
   client.println(ID_TAG); 
   client.print("</p>");
   client.println("</html>");
